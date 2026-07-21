@@ -7,7 +7,10 @@ import 'antd/dist/reset.css';
 import './index.css';
 import App from './App';
 import store from './store/store';
+import { initializeLocalStorage } from './utils/initializeLocalStorage';
 
+
+initializeLocalStorage();
 
 const queryClient = new QueryClient();
 
