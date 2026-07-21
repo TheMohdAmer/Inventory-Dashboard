@@ -16,6 +16,16 @@
 </div>
 
 ---
+## 🌐 Live Demo
+
+https://inventory-dashboard-q16n-git-main-mohd-amer.vercel.app/
+
+## 🔑 Demo Credentials
+
+| Role | Username | Password |
+|------|----------|----------|
+| Admin | `admin1` | `admin123` |
+| User | `amzath` | `am123` |
 
 ## 📖 Overview
 

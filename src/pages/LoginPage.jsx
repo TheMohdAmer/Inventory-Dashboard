@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, Input, Button, Typography, message, Select } from 'antd';
+import { Card, Input, Button, Typography, message, Select, Alert, Flex } from 'antd';
 
 const { Title } = Typography;
 const { Option } = Select;
@@ -46,7 +46,8 @@ export default function LoginPage() {
         alignItems: 'center',
         justifyContent: 'center',
         height: '82vh',
-        background: '#0d1c33ff',
+        background: '#0d1c33ff',    
+    
       }}
     >
       <Card
@@ -83,7 +84,43 @@ export default function LoginPage() {
         <Button type="primary" block onClick={handleLogin}>
           Login as {role}
         </Button>
-      </Card>
+
+        
+      
+      <div
+  style={{
+    marginTop: 20,
+    padding: "12px",
+    border: "1px solid #d9d9d9",
+    borderRadius: 8,
+    background: "#fafafa",
+    fontSize: 13,
+    textAlign: "left",
+  }}
+>
+  <div
+    style={{
+      fontWeight: 600,
+      marginBottom: 8,
+      color: "#1677ff",
+    }}
+  >
+    🔑 Demo Credentials
+  </div>
+
+  <div style={{ marginBottom: 8}}>
+    <strong>Admin</strong><br />
+    Username: <code>admin1</code><br />
+    Password: <code>admin123</code>
+  </div>
+
+  <div>
+    <strong>User</strong><br />
+    Username: <code>amzath</code><br />
+    Password: <code>am123</code>
+  </div>
+</div></Card>
     </div>
+    
   );
 }
