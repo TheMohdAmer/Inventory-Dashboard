@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+l
+
+.user_modal_panel .ant-modal-body {
+  max-height: 650vh;
+  overflow-y: auto;
+  margin-top: 200px;
+
+}
